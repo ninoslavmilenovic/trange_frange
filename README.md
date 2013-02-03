@@ -1,5 +1,5 @@
 # trange_frange #
-The tool spells out numbers (amounts) in words. It supports serbian language.
+The tool spells out numbers (amounts) in words. It supports serbian language and amounts up to 999 bilions.
 > 12345.67 => 'dvanaest hiljada tri stotine četrdeset pet i 67/100'
 
 ## Install ##
