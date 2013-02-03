@@ -3,7 +3,7 @@ The tool spells out numbers (amounts) in words. It supports serbian language.
 > 12345.67 => 'dvanaest hiljada tri stotine četrdeset pet i 67/100'
 
 ## Install ##
-```ruby
+```bash
 $ gem install trange_frange
 ```
 
