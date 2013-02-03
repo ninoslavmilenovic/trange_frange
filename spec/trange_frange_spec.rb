@@ -377,7 +377,7 @@ describe TrangeFrange do
       end
     end
 
-    describe '#spell!(show_fraction: true)' do
+    describe '#spell!' do
       context 'when valid amount' do
         context 'when options are ommited' do
           specify do
