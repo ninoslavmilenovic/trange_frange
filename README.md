@@ -14,22 +14,22 @@ amount = TrangeFrange::Amount.new(16345.67)
 amount.spell!
 => "šesnaest hiljada tri stotine četrdeset pet"
 ```
-to include a fraction
+including a fraction
 ```ruby
 amount.spell! show_fraction: true
 => 'šesnaest hiljada tri stotine četrdeset pet i 67/100'
 ```
-to disable spacing between words
+disabling spacing between words
 ```ruby
 amount.spell! squeeze: true
 => 'šesnaesthiljadatristotinečetrdesetpet'
 ```
-to avoid using accented lating characters
+disabling accented lating characters
 ```ruby
 amount.spell! bald: true
 => 'sesnaest hiljada tri stotine cetrdeset pet'
 ```
-or combine the options
+combined options
 ```ruby
 amount.spell! show_fraction: true, squeeze: true, bald: true
 => 'sesnaesthiljadatristotinecetrdesetpet i 67/100'

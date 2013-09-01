@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 require 'spec_helper'
-require 'trange_frange'
 
 describe TrangeFrange do
   it 'should have a VERSION constant' do
