@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# encoding: utf-8
 
 module TrangeFrange
   class One < Struct.new :base, :magnitude
