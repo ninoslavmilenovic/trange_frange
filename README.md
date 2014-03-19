@@ -39,6 +39,6 @@ amount.spell! show_fraction: true, squeeze: true, bald: true
 ```
 
 ### Copyright ###
-Copyright (c) 2013 Ninoslav Milenovic
+Copyright (c) 2014 Ninoslav Milenovic
 
 See LICENSE.txt for details.
