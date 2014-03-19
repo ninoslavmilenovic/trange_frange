@@ -8,6 +8,7 @@ GEM
   specs:
     diff-lcs (1.2.5)
     json (1.8.1)
+    rake (10.1.0)
     rdoc (3.12.2)
       json (~> 1.4)
     rspec (2.14.1)
@@ -24,6 +25,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  rake
   rdoc (~> 3.0)
   rspec (~> 2.4)
   rubygems-tasks (~> 0.2)
