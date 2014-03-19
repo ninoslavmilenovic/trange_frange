@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    trange_frange (0.1.2)
+    trange_frange (0.1.3)
 
 GEM
   remote: http://rubygems.org/
