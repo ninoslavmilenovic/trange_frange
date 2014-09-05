@@ -1,6 +1,6 @@
 # trange_frange #
 
-[![Build Status](https://travis-ci.org/pythogorian/trange_frange.png?branch=master)](https://travis-ci.org/pythogorian/trange_frange)
+[![Build Status](https://travis-ci.org/pythogorian/trange_frange.svg?branch=master)](https://travis-ci.org/pythogorian/trange_frange)
 
 The tool spells out numbers (amounts) in words. It supports serbian language and amounts up to 999 bilions.
 > 12345.67 => 'dvanaest hiljada tri stotine četrdeset pet i 67/100'
