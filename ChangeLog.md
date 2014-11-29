@@ -15,3 +15,4 @@
 
 * Update contact details
 * Update github username
+* Ruby 2.1 support
