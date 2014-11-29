@@ -20,3 +20,7 @@
 ### 0.1.4 / 2014-11-29 ###
 * Fix gem version bug
 * Version bump
+
+### 0.1.5 / 2014-11-29 ###
+* Update dependencies
+* Update deprecated assertions
