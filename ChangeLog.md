@@ -10,3 +10,8 @@
 
 * Refactoring
 * Fixing 'require' bug
+
+### 0.1.3 / 2014-11-29 ###
+
+* Update contact details
+* Update github username
