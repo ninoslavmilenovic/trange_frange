@@ -58,12 +58,12 @@ describe TrangeFrange do
     describe '#teen?' do
       context 'when 123' do
         let(:base) { TrangeFrange::Base.new '123' }
-        specify { base.teen?.should be_false }
+        specify { base.teen?.should be_falsey }
       end
 
       context 'when 113' do
         let(:base) { TrangeFrange::Base.new '113' }
-        specify { base.teen?.should be_true }
+        specify { base.teen?.should be_truthy }
       end
     end
 
@@ -74,7 +74,7 @@ describe TrangeFrange do
           non_gender.map { |non_gender| TrangeFrange::Base.new "12#{non_gender}" }
         end
         specify do 
-          bases.each { |base| base.gender?.should be_false }
+          bases.each { |base| base.gender?.should be_falsey }
         end
       end
 
@@ -84,7 +84,7 @@ describe TrangeFrange do
           gender.map { |gender| TrangeFrange::Base.new "12#{gender}" }
         end
         specify do
-          bases.each { |base| base.gender?.should be_true }
+          bases.each { |base| base.gender?.should be_truthy }
         end
       end
     end
@@ -98,7 +98,7 @@ describe TrangeFrange do
           gender.map { |gender| TrangeFrange::Suffix.new "12#{gender}" }
         end
         specify do 
-          suffixes.each { |suffix| suffix.gender?.should be_true }
+          suffixes.each { |suffix| suffix.gender?.should be_truthy }
         end
       end
 
@@ -108,7 +108,7 @@ describe TrangeFrange do
           non_gender.map { |non_gender| TrangeFrange::Suffix.new "12#{non_gender}" }
         end
         specify do 
-          suffixes.each { |suffix| suffix.gender?.should be_false }
+          suffixes.each { |suffix| suffix.gender?.should be_falsey }
         end
       end
     end
@@ -116,12 +116,12 @@ describe TrangeFrange do
     describe '#one?' do
       context 'when one' do
         let(:suffix) { TrangeFrange::Suffix.new '121' }
-        specify { suffix.one?.should be_true }
+        specify { suffix.one?.should be_truthy }
       end
 
       context 'when not one' do
         let(:suffixes) { TrangeFrange::Suffix.new '123' }
-        specify { suffixes.one?.should be_false }
+        specify { suffixes.one?.should be_falsey }
       end
     end
   end
