@@ -16,3 +16,7 @@
 * Update contact details
 * Update github username
 * Ruby 2.1 support
+
+### 0.1.4 / 2014-11-29 ###
+* Fix gem version bug
+* Version bump
