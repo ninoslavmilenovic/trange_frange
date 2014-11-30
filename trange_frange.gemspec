@@ -20,4 +20,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rdoc', '~> 4.1'
   gem.add_development_dependency 'rspec', '~> 3.1'
   gem.add_development_dependency 'rubygems-tasks', '~> 0.2'
+  gem.add_development_dependency 'codeclimate-test-reporter'
 end
