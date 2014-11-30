@@ -3,6 +3,7 @@
 [![Gem Version](https://badge.fury.io/rb/trange_frange.svg)](http://badge.fury.io/rb/trange_frange)
 [![Build Status](https://travis-ci.org/rubyengineer/trange_frange.svg?branch=master)](https://travis-ci.org/rubyengineer/trange_frange)
 [![Code Climate](https://codeclimate.com/github/rubyengineer/trange_frange/badges/gpa.svg)](https://codeclimate.com/github/rubyengineer/trange_frange)
+[![Test Coverage](https://codeclimate.com/github/rubyengineer/trange_frange/badges/coverage.svg)](https://codeclimate.com/github/rubyengineer/trange_frange)
 [![Dependency Status](https://gemnasium.com/rubyengineer/trange_frange.svg)](https://gemnasium.com/rubyengineer/trange_frange)
 
 The tool spells out numbers (amounts) in words. It supports serbian language and amounts up to 999 bilions.
